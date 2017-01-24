@@ -1,0 +1,70 @@
+1) Wyniki dla dwóch bardzo ró¿nych plików.
+
+-----
+Function: MD5
+File: Test A.txt
+Hash: 8AFBF70C5B881E107C8E6F8F106984C2
+-----
+-----
+Function: SHA-256
+File: Test A.txt
+Hash: FD644598BD15EF3DB76C90D85CB1210734D51FF32F8E573E7A10C236369A2BC7
+-----
+-----
+Function: Fuzzy
+File: Test A.txt
+Hash: 12:6T9fA9cVgfeiCxuygq1t9MeG3cWQdWWGjgo3FC3G62RM7MNPK:i9Q+gfenbMeGsWQ7kghzuPK
+-----
+-----
+Function: MD5
+File: Test C.jpg
+Hash: 3F261526D4B333333B1EA1316FB9BEC4
+-----
+-----
+Function: SHA-256
+File: Test C.jpg
+Hash: DBDF30DFAB8A12D94DC24B4CA1BBD40E074FB57213CBA1AC7B7ABF7C71504BE4
+-----
+-----
+Function: Fuzzy
+File: Test C.jpg
+Hash: 6144:a8kR8OFRKSvVX61wROKvwsmNwNKx7iKpBbVRS1Bod+spqBz1H9j38eFF:a8kR8OFJVROKpNcpj4LodnqZt
+-----
+
+
+2) Wyniki dla dwóch podobnych plików.
+
+-----
+Function: MD5
+File: Test A.txt
+Hash: 8AFBF70C5B881E107C8E6F8F106984C2
+-----
+-----
+Function: SHA-256
+File: Test A.txt
+Hash: FD644598BD15EF3DB76C90D85CB1210734D51FF32F8E573E7A10C236369A2BC7
+-----
+-----
+Function: Fuzzy
+File: Test A.txt
+Hash: 12:6T9fA9cVgfeiCxuygq1t9MeG3cWQdWWGjgo3FC3G62RM7MNPK:i9Q+gfenbMeGsWQ7kghzuPK
+-----
+-----
+Function: MD5
+File: Test B.txt
+Hash: 72FD1D26A5ADA832740280BCFA8AC519
+-----
+-----
+Function: SHA-256
+File: Test B.txt
+Hash: BA617937096C3D448B75E179AEDB0259A0C530140118E8CA78E454C3D46723BD
+-----
+-----
+Function: Fuzzy
+File: Test B.txt
+Hash: 12:6T9fA9cVgfeiCxuygq1t9MeG3cWQdWWGjgo3mu7bLbG:i9Q+gfenbMeGsWQ7kgxL
+-----
+
+3) Wnioski
+
+Dla wszystkich trzech funkcji haszuj¹cych, hasze dla dwóch ró¿nych plików ró¿ni¹ siê od siebie. W przypadku dwóch podobnych plików, hasze MD5 oraz SHA-256 nadal s¹ od siebie ró¿ne. Jednak hasze fuzzy dla dwóch podobnych plików s¹ do siebie bardzo zbli¿one.
